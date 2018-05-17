@@ -1,0 +1,25 @@
+{
+  "name": "burger-store",
+  "version": "1.0.0",
+  "description": "I have created The Bonkers Burger Store using MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following an MVC design pattern; this site uses Node and MySQL to query and route data into the app, and Handlebars to generate the HTML.  The site is deployed using Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llanoreinaldo/burger-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llanoreinaldo/burger-store/issues"
+  },
+  "homepage": "https://github.com/llanoreinaldo/burger-store#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
