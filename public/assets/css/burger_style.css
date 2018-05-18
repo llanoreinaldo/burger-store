@@ -1,5 +1,5 @@
 .name {
-    font-size: 18px;
+    font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     background-color: rgb(59, 1, 172);
@@ -7,11 +7,11 @@
 } 
 
 h1 {
-    font-size: 36px
+    font-size: 32px
 } 
 
 h2 {
-    font-size: 24px
+    font-size: 22px
 }
 
 body {
