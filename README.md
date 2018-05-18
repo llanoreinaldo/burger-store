@@ -1,7 +1,7 @@
 # The Bonkers Burger Store
 [The Bonkers Burger Store Site](http://www.llanoreinaldo.com/burger-store/)
 
-[The Bonkers Burger Site](public/assets/img/bonkerburger.JPG)
+![The Bonkers Burger Site](public/assets/img/bonkerburger.JPG)
 
 ### Overview
 
