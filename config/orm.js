@@ -4,18 +4,18 @@ var connection = require("../config/connection.js");
 var orm = {
     selectAll: function (cb) {
         var queryString = "SELECT * FROM burgers";
-        conection.query(queryString, null, function (err, res) {
+        connection.query(queryString, null, function (err, res) {
             if (err) throw err;
             cb(res);
         });
     },
     insertOne: function (burger_name, cb) {
         var burger = {
-            burger_name = burger_name,
+            burger_name: burger_name,
         }
         var queryString = "INSERT INTO burgers SET ?";
         console.log(queryString);
-        connnection.query(queryString, burger, function (err, res) {
+        connection.query(queryString, burger, function (err, res) {
             if (err) throw err;
             cb(res);
         });

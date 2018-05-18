@@ -7,10 +7,10 @@ var app = express();
 var PORT = process.env.PORT || 8080
 
 // Parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bp.urlencoded({ extended: false }));
 
 //Parse application/JSON
-app.use(bodyParser.json());
+app.use(bp.json());
 
 //Makes public static folders available
 app.use(express.static('public'));

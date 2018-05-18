@@ -1,0 +1,40 @@
+.name {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: rgb(59, 1, 172);
+    font-weight: bold;
+} 
+
+h1 {
+    font-size: 36px
+} 
+
+h2 {
+    font-size: 24px
+}
+
+body {
+    text-align: center;
+    max-width: 640px;
+    margin: auto;
+    background-image: url("../img/bread-breakfast-bun-327135.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    font-weight: bold;
+    font-size: 24px
+}
+
+li {
+    text-align: left;
+    display: flex;
+    width: 500px;
+}
+
+li>button {
+    margin-left: auto;
+    color: white;
+    background-color: rgb(59, 1, 172);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

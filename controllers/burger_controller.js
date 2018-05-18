@@ -25,9 +25,9 @@ router.post('/api/new', function (req, res) {
     };
 });
 
-router.post('/api/devour', function (req, res) {
-    var id = req.body.burger_id;
-    burger.update(id, function (data) {
+router.post('/api/devoured', function(req, res) {
+    let id = req.body.id;
+    burger.update(id, function(data){
         res.json(200);
     });
 });
